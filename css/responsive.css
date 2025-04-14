@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+    .nav-container {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .nav-links {
+        margin: 1rem 0;
+    }
+
+    .nav-links a {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    .auth-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .brand-intro h1 {
+        font-size: 3rem;
+    }
+
+    .brand-intro h2 {
+        font-size: 1.5rem;
+    }
+
+    .phoenix-image img {
+        max-width: 300px;
+    }
+
+    .story-content {
+        flex-direction: column;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .service-items {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding: 0 1rem;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+
+    .product-list {
+        grid-template-columns: 1fr;
+    }
+} 
